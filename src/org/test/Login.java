@@ -6,8 +6,12 @@ public class Login {
 		System.out.println("Username");
 	}
 	
-	public static void main(String[] args) {
-		username();
+	public static void password() {
+		System.out.println("Password");
 	}
 
+	public static void main(String[] args) {
+		password();
+		username();
+	}
 }
